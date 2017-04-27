@@ -68,16 +68,16 @@
         for(int i=0; i< res.size(); i++)
         {
             out.println("<tr>");
-            out.println("<td>"+res.get(i)setExpenseID()loc+"</td>");
-            out.println("<td>"+res.get(i).setExpenseType()+"</td>");
+            out.println("<td>"+res.get(i)getExpenseID()loc+"</td>");
+            out.println("<td>"+res.get(i).getExpenseType()+"</td>");
             out.println("<td>"+res.get(i).getLocationCode()+"</td>");
-            out.println("<td>"+res.get(i).setPurposeofExpense()+"</td>");
-            out.println("<td>"+res.get(i).setAmountSpent()+"</td>");
-            out.println("<td>"+res.get(i).setDescription()+"</td>");
-            out.println("<td>"+res.get(i).setDatePurchased()+"</td>");
-            out.println("<td>"+res.get(i).setDateSubmitted()+"</td>");
-            out.println("<td>"+res.get(i).setAdvanceAmount()+"</td>");
-            out.println("<td>"+res.get(i).setPaymentMethod()+"</td>");
+            out.println("<td>"+res.get(i).getPurposeofExpense()+"</td>");
+            out.println("<td>"+res.get(i).getAmountSpent()+"</td>");
+            out.println("<td>"+res.get(i).getDescription()+"</td>");
+            out.println("<td>"+res.get(i).getDatePurchased()+"</td>");
+            out.println("<td>"+res.get(i).getDateSubmitted()+"</td>");
+            out.println("<td>"+res.get(i).getAdvanceAmount()+"</td>");
+            out.println("<td>"+res.get(i).getPaymentMethod()+"</td>");
    
            
         }
