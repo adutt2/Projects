@@ -42,10 +42,10 @@
        </style> 
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Payment Details details</title>
+        <title>Pricing details</title>
     </head>
     <body> 
-    <h1>Pricing Details</h1>
+    <h1>Details</h1>
         <table>
   <tr>
     <th>Price Id</th>
@@ -70,13 +70,13 @@
         for(int i=0; i< res.size(); i++)
         {
             out.println("<tr>");
-            out.println("<td>"+res.get(i)setPriceID()loc+"</td>");
-            out.println("<td>"+res.get(i).setLocationIDFrom()+"</td>");
-            out.println("<td>"+res.get(i).setLocationIDTO()+"</td>");
-            out.println("<td>"+res.get(i).setPrice()+"</td>");
-            out.println("<td>"+res.get(i).setLocationCodeFrom()+"</td>");
-            out.println("<td>"+res.get(i).setLocationCodeTo()+"</td>");
-            out.println("<td>"+res.get(i).setCustomerID()+"</td>");
+            out.println("<td>"+res.get(i)getPriceID()loc+"</td>");
+            out.println("<td>"+res.get(i).getLocationIDFrom()+"</td>");
+            out.println("<td>"+res.get(i).getLocationIDTO()+"</td>");
+            out.println("<td>"+res.get(i).getPrice()+"</td>");
+            out.println("<td>"+res.get(i).getLocationCodeFrom()+"</td>");
+            out.println("<td>"+res.get(i).getLocationCodeTo()+"</td>");
+            out.println("<td>"+res.get(i).getCustomerID()+"</td>");
             
    /*em=new PricingModel();	
 			em.setPriceID(sr.getString("priceid"));
