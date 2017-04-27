@@ -67,7 +67,7 @@
 	ws.TestV1_Service service = new ws.TestV1_Service();
 	ws.TestV1 port = service.getTestV1Port();
 	// TODO process result here
-	java.util.List<ws.CustomerModel> res = port.getCustomer();
+	java.util.List<ws.TransactionModel> res = port.getCustomer();
         for(int i=0; i< res.size(); i++)
         {
             out.println("<tr>");
